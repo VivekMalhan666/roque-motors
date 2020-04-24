@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>About us</title>
+   <meta charset="utf-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="stylesheet/styles.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <header>
+        <div class="logo"><a href="#">logo</a></div>
+        <nav id="nav">
+            <ul>
+                <li><a href="#" class="active">Home</a></li>
+                <li><a href="#">Products</a></li>
+                <li><a href="#">About Us</a></li>
+                <li><a href="#">Contact Us</a></li>
+            </ul>
+        </nav>
+        <div class="menu-toggle" onclick="toggle()"><i class="fa fa-bars"></i></div>
+    </header>
+<script>
+            function toggle(){
+                var men=document.getElementsByClassName('menu-toggle') 
+                var nav=document.getElementById('nav');
+                nav.classList.toggle('active');
+            }
+</script>
+</body>
+</html>
