@@ -8,6 +8,7 @@ header
     background-color: firebrick;
     width: 100%;
     box-sizing: border-box;
+    z-index: 1;
 }
 header .logo a
 {
@@ -43,7 +44,7 @@ header nav ul li a
     display: inline-block;
 }
 /* add a empty string after the elment with class .slide-left-right */
-header nav ul li a:after 
+header nav ul li a:after
 {
 content: '';
 display: block;
@@ -54,7 +55,7 @@ transition: width .5s ease, background-color .5s ease; /* .5 seonds for changes 
 -webkit-transition: width .5s ease, background-color .5s ease; /* Chrome and Safari */
 -moz-transition: width .5s ease, background-color .5s ease; /* FireFox */
 }
-header nav ul li a:hover:after 
+header nav ul li a:hover:after
 {
 width: 100%;
 background:firebrick;
@@ -108,4 +109,8 @@ header nav ul li a.active
     {
         border-bottom: 1px solid rgba(0, 0, 0, 0.2);
     }
+}
+
+.footer-div{
+  background: firebrick;
 }
