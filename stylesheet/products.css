@@ -1,0 +1,10 @@
+/* For desktop */
+body
+{
+    margin: 0;
+    padding: 0;
+    font-family:sans-serif ;
+    background: url(/Docs/back2.jpeg);
+    background-attachment: fixed;
+    background-position: center;
+}
