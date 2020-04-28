@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>About us</title>
+   <meta charset="utf-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="stylesheet/aboutus2.css">
+  <link rel="stylesheet" href="stylesheet/menus.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <!-- Navigation bar -->
+    <header>
+        <div class="logo"><a href="#">logo</a></div>
+        <nav id="nav">
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="products.html">Products</a></li>
+                <li><a href="about-us.html" class="active">About Us</a></li>
+                <li><a href="contact-us.html">Contact Us</a></li>
+          </ul>
+        </nav>
+        <div class="menu-toggle" onclick="toggle()"><i class="fa fa-bars"></i></div>
+    </header>
+    <!-- Contents of about us -->
+    <section>
+    <!-- Grid 1-->
+    <div class="grid-container1">
+      <div class="grid-item">Dolor ad eu excepteur sint. Eu veniam elit nulla incididunt. Id consequat excepteur ut in mollit adipisicing velit pariatur consectetur. Tempor adipisicing deserunt ea ea ea dolor qui enim officia dolore nisi.</div>
+      <div class="grid-item">Esse in consectetur quis eiusmod est ipsum eu proident labore ullamco qui commodo. Ea Lorem quis elit fugiat eiusmod. Esse pariatur magna proident nisi enim culpa. Nostrud dolore nostrud Lorem est consectetur cupidatat adipisicing fugiat deserunt. Incididunt ut qui qui aliquip velit consequat laborum. Duis ad non ea occaecat officia laboris dolor aliquip Lorem consequat. Consectetur ad qui minim pariatur cupidatat anim proident adipisicing.</div>
+    </div>
+    <!-- Grid 2 -->
+    <div class="content-wrapper">
+        <div class="about-items-wrapper">
+            
+            <div class="about-item-wrapper">
+                <div class="about-img-background" style="background-image: url('Docs/background.jpeg');"></div>
+                <div class="img-text-wrapper">
+                    <div class="subtitle">
+                        <h3>The Team</h3>
+                    </div>
+                </div>
+            </div>
+
+            
+            <div class="about-item-wrapper">
+                <div class="about-img-background" style="background-image: url('Docs/background.jpeg');"></div>
+                <div class="img-text-wrapper">
+                    <div class="subtitle">
+                        <h3>Our Products</h3>
+                    </div>
+                </div>
+            </div>
+                
+            
+            <div class="about-item-wrapper">
+                <div class="about-img-background" style="background-image: url('Docs/background.jpeg');"></div>
+                <div class="img-text-wrapper">
+                    <div class="subtitle">
+                        <h3>Services</h3>
+                    </div>
+                </div>
+            </div>
+
+    </section>
+    <!--footer-->
+    <footer>
+     <div class="footer-div">
+      <br><br><br>
+     </div>
+    </footer>
+<!-- For responsive navbar     -->
+<script>
+            function toggle(){
+                var men=document.getElementsByClassName('menu-toggle')
+                var nav=document.getElementById('nav');
+                nav.classList.toggle('active');
+            }
+</script>
+</body>
+</html>
