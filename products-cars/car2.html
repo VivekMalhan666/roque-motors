@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Products</title>
+   <meta charset="utf-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="../stylesheet/products.css">
+  <link rel="stylesheet" href="../stylesheet/menus.css">
+  <link rel="stylesheet" href="../stylesheet/Products-cars/car2.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <!-- Navigation bar -->
+    <header>
+        <div class="logo"><a href="#">logo</a></div>
+        <nav id="nav">
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="products.html" class="active">Products</a></li>
+                <li><a href="about-us.html">About Us</a></li>
+                <li><a href="contact-us.html">Contact Us</a></li>
+            </ul>
+        </nav>
+        <div class="menu-toggle" onclick="toggle()"><i class="fa fa-bars"></i></div>
+    </header>
+    <!-- Contents of about us -->
+    <section>
+    <!-- sidebar -->
+    <div class="sidebar">
+      <ul class="sidebar-ul">
+        <li class="sidebar-item"><a class="sidebar-a" href="../products.html">Mercedez AMG<img class="sidebar-item-img" src="../Docs/Car1.png" alt=""></a></li>
+        <li class="sidebar-item"><a class="sidebar-a" href="car2.html">Range Rover <img class="sidebar-item-img" src="../Docs/Car2.png" alt=""> </a></li>
+        <li class="sidebar-item"><a class="sidebar-a" href="#">Mercedez AMG<img class="sidebar-item-img" src="../Docs/Car1.png" alt=""></a></li>
+        <li class="sidebar-item"><a class="sidebar-a" href="#">Mercedez AMG<img class="sidebar-item-img" src="../Docs/Car1.png" alt=""></a></li>
+        <li class="sidebar-item"><a class="sidebar-a" href="#">Mercedez AMG<img class="sidebar-item-img" src="../Docs/Car1.png" alt=""></a></li>
+      </ul>
+    </div>
+    <!--CAR 1-->
+    <div class="CAR1">
+      <img class="car1-img" src="../Docs/Car2.png" alt="">
+    </div>
+    <!--details-->
+    <div class="details">
+      <span class="span-heading">Range Rover </span>
+      <span class="span-subheading">Starting Price - 55 Lakhs* Only</span>
+      <span class="sub-heading1">Features</span>
+      <p class="detail-p1">It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, co
+      </p>
+      <span class="sub-heading2">Rating</span>
+      <img class="rating-img" src="../Docs/stars.png" alt="">
+      <span class="sub-heading3">Colors Available</span>
+      <img class="colors-img" src="../Docs/colors.png" alt="">
+      <span class="sub-heading4">Offers</span>
+      <p class="detail-p2">It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using 'Content here, co
+      </p>
+    </div>
+    <!--specifications grid-->
+    <div class="specifications">
+      <div class="grid-item"><img class="engine-img" src="../Docs/engine.png" alt=""> </div>
+      <div class="gird-item"><img class="seats-img" src="../Docs/car_seats.png" alt=""> </div>
+      <div class="gird-item"><img class="suspension-img" src="../Docs/suspension.jpg" alt=""> </div>
+      <div class="grid-item">2200cc Engine</div>
+      <div class="grid-item">Leather Seats</div>
+      <div class="grid-item">Powerful Suspension</div>
+    </div>
+    </section>
+<!-- For responsive navbar     -->
+<script>
+            function toggle(){
+                var men=document.getElementsByClassName('menu-toggle')
+                var nav=document.getElementById('nav');
+                nav.classList.toggle('active');
+            }
+</script>
+</body>
+</html>
