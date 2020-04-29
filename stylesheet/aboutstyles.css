@@ -60,6 +60,18 @@ body
 hr{
   color: rgba(255, 217, 0, 0.733);
 }
+
+.timeline-img{
+  height: 450px;
+  width: 100%;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.timeline{
+  padding: 50px;
+}
+
 /* For Tablet and mobile*/
 @media (max-width :991px){
   .grid-container1
@@ -73,5 +85,13 @@ hr{
   {
     grid-template-columns: 1fr;
 
+  }
+  .timeline-img{
+    height: 200px;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    filter: brightness(50%);
   }
 }
