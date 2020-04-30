@@ -111,3 +111,93 @@
 .grid-item{
   color:white;
 }
+/*responsive*/
+@media (max-width :991px)
+{
+  section: {
+    width: 50%;
+  }
+  .car1-img{
+    position: absolute;
+    top: 350px;
+    left: 0;
+    width: 100%;
+  }
+  .span-heading{
+    position: absolute;
+    color: white;
+    top: 280px;
+    left: 18%;
+    font-size: 80vm;
+  }
+  .span-subheading{
+    position: absolute;
+    text-align: center;
+    color: white;
+    top: 325px;
+    left: 18%;
+    font-size: 30vm;
+  }
+  .sub-heading1{
+    text-align: center;
+    position: absolute;
+    top: 980px;
+    left: 18%;
+    font-size: 30vm;
+  }
+
+  .detail-p1{
+    text-align: center;
+    position: absolute;
+    top: 1000px;
+    left: 17%
+  }
+
+  .sub-heading2{
+    text-align: center;
+    position: absolute;
+    top: 1280px;
+    left: 18%;
+    font-size: 30vm;
+  }
+  .rating-img{
+    position: absolute;
+    top: 1315px;
+
+    left: 18%;
+  }
+  .sub-heading3{
+    text-align: center;
+    position: absolute;
+    top: 1450px;
+    left: 18%;
+    font-size: 30vm;
+  }
+  .colors-img{
+    position: absolute;
+    top: 1485px;
+    left: 32.5%;
+  }
+  .specifications{
+    position: absolute;
+    top:1600px;
+    width:100%;
+    left:8%;
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-auto-rows:auto;
+  }
+  .sub-heading4{
+    text-align: center;
+    position: absolute;
+    top: 1820px;
+    left: 18%;
+    font-size: 30vm;
+  }
+  .detail-p2{
+    text-align: center;
+    position: absolute;
+    top: 1850px;
+    left: 17%;
+  }
+}
