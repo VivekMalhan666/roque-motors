@@ -19,7 +19,7 @@ section{
     grid-auto-rows:auto;
     margin-top: 100px;
     grid-gap: 30px;
-    padding: 50px; 
+    padding: 50px;
 }
 .grid-item {
     background-color: rgba(178, 34, 34, 0.664);
@@ -57,6 +57,13 @@ section{
     font-weight: 700;
     color: #ffffff;
     font-family: 'Times New Roman', Times, serif;
+}
+.timeline-img{
+  height: 450px;
+  width: 310%;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
 }
 @media (max-width: 991px){
         section{
@@ -102,5 +109,13 @@ section{
             font-weight: 600;
             color: #ffffff;
             font-family: 'Times New Roman', Times, serif;
+        }
+        .timeline-img{
+          height: 200px;
+          width: 100%;
+          background-size: cover;
+          background-position: center;
+          background-repeat: no-repeat;
+          filter: brightness(50%);
         }
 }

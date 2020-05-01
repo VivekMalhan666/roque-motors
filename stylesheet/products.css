@@ -8,3 +8,81 @@ body
     background-attachment: fixed;
     background-position: center;
 }
+section{
+    margin-top: 50px;
+}
+
+.sidebar-ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  width: 400px;
+  background-color: firebrick;
+  border: 1px solid rgba(255, 217, 0, 0.733);
+  height: 100%; /* Full height */
+  position: relative;; /* Make it stick, even on scroll */
+  overflow: auto;
+}
+
+.sidebar-item .sidebar-a {
+  display: block;
+  color: #ffffff;
+  padding: 8px 16px;
+  text-decoration: none;
+}
+
+/* Change the link color on hover */
+.sidebar-item .sidebar-a:hover {
+  background-color: rgba(255, 217, 0, 0.733);
+  color: white;
+}
+
+.sidebar-item{
+  text-align: left;
+  border-bottom: 1px solid  rgba(255, 217, 0, 0.733);
+}
+
+.sidebar-item-img{
+  height: 80%;
+  width: 50%;
+  position: relative;
+  right: 0;
+  left:70px;
+  top:10px;
+}
+
+.sidebar-a{
+  height: 160px;
+  width: 368px;
+}
+.sidebar-item-active .sidebar-a-item{
+  background-color: rgba(255, 217, 0, 0.733);
+  color: white;
+}
+@media (max-width :991px)
+{
+  .sidebar-ul
+  {
+    width: 180px;
+    height: 100%;
+    position: sticky; /* Make it stick, even on scroll */
+    overflow: auto;
+  }
+  .sidebar-item-img{
+    width: 0;
+    height: 0;
+  }
+  .sidebar-a{
+    height: 20px;
+    width: 170px;
+    font-size: 10px;
+  }
+  .sidebar-item .sidebar-a {
+    padding: 5px;
+  }
+  .sidebar-item .sidebar-a:hover {
+    background-color: rgba(255, 217, 0, 0.733);
+    color: white;
+  }
+
+}
