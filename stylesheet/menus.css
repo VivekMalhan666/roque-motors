@@ -88,16 +88,17 @@ header nav ul li a.active
     }
     header nav
     {
+        display: none;
+    }
+    header nav.active
+    {
+        display: block;
         position: absolute;
         width: 100%;
         height: calc(100vh-50px);
         background:firebrick;
         top: 50px;
-        right: -100%;
         transition: 0.5s;
-    }
-    header nav.active
-    {
         right: 0;
     }
     header nav ul
