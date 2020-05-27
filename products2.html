@@ -18,19 +18,61 @@
         <nav id="nav">
             <ul>
                 <li><a href="#">Home</a></li>
-                <li><a href="products.html">Products</a></li>
+                <li><a href="products.html" class="active">Products</a></li>
                 <li><a href="about-us.html">About Us</a></li>
-                <li><a href="contact-us.html" class="active">Contact Us</a></li>
+                <li><a href="contact-us.html">Contact Us</a></li>
             </ul>
         </nav>
         <div class="menu-toggle" onclick="toggle()"><i class="fa fa-bars"></i></div>
     </header>
     <!-- Contents of about us -->
     <section>
+
      <div  class="container">
        <img class="head-img" src="Docs/speedometer.jpg" alt="">
-       <button class="btn">Button</button>
+       <div class="links">
+         <a href="#SUV" class="btn">MODELS</a>
+         <a href="#SUV" class="btn1">SUV</a>
+         <a href="#SEDAN" class="btn2">SEDAN</a>
+         <a  href="#SPORTS" class="btn3">SPORTS CAR</a>
+         <a class="btn4">SPARE PARTS</a>
+       </div>
+
+    </div>
+
+     <div class="heading1">
+       <h1 id="SUV">SUV</h1>
      </div>
+
+     <div class="grid-container">
+       <div class="grid-item"><img class="grid-img" src="Docs/Car1.jpg" alt=""></div>
+       <div class="grid-item"><img class="grid-img" src="Docs/Car1.jpg" alt=""></div>
+       <div class="grid-item"><button class="button">Button</button></div>
+       <div class="grid-item"><button class="button">Button</button></div>
+    </div>
+
+    <div class="heading1">
+       <h1 id="SEDAN">SEDAN</h1>
+    </div>
+    <div class="grid-container">
+      <div class="grid-item"><img class="grid-img" src="Docs/Car1.jpg" alt=""></div>
+      <div class="grid-item"><img class="grid-img" src="Docs/Car1.jpg" alt=""></div>
+      <div class="grid-item"><button class="button">Button</button></div>
+      <div class="grid-item"><button class="button">Button</button></div>
+   </div>
+
+   <div class="heading1">
+      <h1 id="SPORTS">SPORTS CAR</h1>
+   </div>
+   <div class="grid-container">
+     <div class="grid-item"><img class="grid-img" src="Docs/Car1.jpg" alt=""></div>
+     <div class="grid-item"><img class="grid-img" src="Docs/Car1.jpg" alt=""></div>
+     <div class="grid-item"><button class="button">Button</button></div>
+     <div class="grid-item"><button class="button">Button</button></div>
+  </div>
+
+
+
     </section>
 <!-- For responsive navbar     -->
 <script>

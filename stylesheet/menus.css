@@ -81,6 +81,7 @@ header nav ul li a.active
     header
     {
     padding: 0 20px;
+    z-index: 10000;
     }
     .menu-toggle
     {
