@@ -207,12 +207,8 @@ section .container .contactForm .formBox .inputBox input[type="submit"]
   max-width: 150px;
   padding:12px;
 }
+
 section .container .contactForm .formBox .inputBox input[type="submit"]:hover{
   background: rgba(255, 217, 0, 0.733);
   color: black;
-}
-
-@media (max-width :991px)
-{
-  content:"Jaswant";
 }
