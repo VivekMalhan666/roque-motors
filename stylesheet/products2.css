@@ -1,17 +1,21 @@
+/* style for body*/
  body
  {
    font-family: sans-serif;
    background-color: #000000;
+   background-image: url("../Docs/speedometer.jpg");
  }
 
+/*top banner image*/
 .links {
-  background-image: url("../Docs/speedometer.jpg");
+  background: url("../Docs/lamborghini.png");
   padding: 100px;
   background-repeat: no-repeat;
   background-position: left top;
   background-attachment: scroll;
 }
 
+/*link on the banner*/
 .links a{
   display: block;
   padding: 10px;
@@ -26,6 +30,7 @@
   color: firebrick;
 }
 
+/*grid showcase*/
 .grid-container {
   display: grid;
   grid-template-columns: auto auto;
@@ -34,21 +39,28 @@
   padding-top: 0;
   grid-gap: 5%;
 }
+
+/*grid cell*/
 .grid-item {
   background-color:#000000;
   border: none;
 }
-.grid-img {
+
+/*grid image(cars)*/
+ .grid-img {
   width: 100%;
   height: 100%;
  margin: 0;
  object-fit: cover;
 }
+
 a{
   text-decoration: none;
   text-align: left;
     display:block;
 }
+
+/*heading above each section*/
 h1{
   text-align: center;
   padding-top: 12%;
@@ -56,6 +68,7 @@ h1{
   color: #ffffff;
 }
 
+/*button*/
 .button {
   background-color: firebrick;
   border: none;
@@ -67,4 +80,27 @@ h1{
   font-size: 16px;
   margin: 4px 2px;
   cursor: pointer;
+}
+
+/*footer*/
+footer{
+  background-color: firebrick;
+  padding: 10px;
+}
+
+/*icons social media*/
+.icons{
+  color: rgba(255, 217, 0, 0.733);
+  padding: 10px;
+}
+
+.icons:hover
+{
+  color:grey;
+}
+
+/*footer text*/
+.footer-text{
+  padding:20px;
+  color: rgba(255, 217, 0, 0.733);
 }

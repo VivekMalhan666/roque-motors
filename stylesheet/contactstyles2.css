@@ -1,0 +1,133 @@
+/*For  all elements*/
+*{
+  margin: 0;
+  padding: 0;
+  outline: none;
+  box-sizing: border-box;
+  text-decoration: none;
+  font-family:sans-serif ;
+}
+
+/*background image of page*/
+.container{
+  background: url("../Docs/speedometer.jpg");
+  background-attachment: fixed;
+  background-position: center;
+  width: 100%;
+  height: 90vh;
+  color: #fff;
+}
+
+/*contact us form*/
+.container .contactus{
+  max-width: 600px;
+  width: 100%;
+  padding: 80px 15px;
+  margin: 0 auto;
+}
+
+.container .contactus h1{
+  padding-top: 10%;
+  margin-bottom: 30px;
+  text-transform: uppercase;
+  text-align: center;
+  letter-spacing: 5px;
+}
+
+.item{
+  margin-bottom: 15px;
+}
+
+.item input[type="text"],
+.item textarea{
+  width: 100%;
+  background: none;
+  border: 0;
+  border-bottom: 2px solid #fff;
+  color: #fff;
+  padding: 0 0 15px 0
+}
+
+.item.name_email{
+  display: flex;
+  justify-content: space-between;
+}
+
+.item.name_email input[type="text"]{
+  width: 48%;
+}
+
+.item textarea{
+  height: 100px;
+  resize: none;
+}
+
+/* submit button*/
+.btn{
+  margin-top: 30px;
+}
+
+.btn a{
+  display: block;
+  border: 2px solid firebrick;
+  width: 200px;
+  text-align: center;
+  height: 45px;
+  line-height: 45px;
+  text-transform: uppercase;
+  color: #fff;
+  letter-spacing: 5px;
+  transition: all 0.5s linear;
+}
+
+.btn a:hover{
+  background: rgba(255, 217, 0, 0.733);
+  color: #fff;
+}
+
+::-webkit-input-placeholder { /* Chrome/Opera/Safari */
+  color: #fff;
+}
+::-moz-placeholder { /* Firefox 19+ */
+  color: #fff;
+}
+:-ms-input-placeholder { /* IE 10+ */
+  color: #fff;
+}
+
+/*footer*/
+footer{
+  background-color: firebrick;
+  padding: 10px;
+}
+
+/*social media icons*/
+.icons{
+  color: rgba(255, 217, 0, 0.733);
+  padding: 10px;
+}
+
+.icons:hover
+{
+  color:grey;
+}
+
+/*copyright*/
+.footer-text{
+  padding:20px;
+  color: rgba(255, 217, 0, 0.733);
+}
+
+/*for mobile and tablet view*/
+@media screen and (max-width: 420px){
+  .container .contactus h1{
+    padding-top: 0%;
+  }
+  .item.name_email{
+    flex-direction: column;
+  }
+  .item.name_email input[type="text"]{
+    width: 100%;
+    margin-bottom: 15px;
+  }
+}

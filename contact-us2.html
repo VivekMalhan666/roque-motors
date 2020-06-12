@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="stylesheet/menus.css">
+    <link rel="stylesheet" href="stylesheet/contactstyles2.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title></title>
+  </head>
+  <body>
+
+    <!-- Navigation bar -->
+    <header>
+        <div class="logo"><a href="#">logo</a></div>
+        <nav id="nav">
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="products2.html">Products</a></li>
+                <li><a href="about-us.html" >About Us</a></li>
+                <li><a href="contact-us2.html" class="active">Contact Us</a></li>
+          </ul>
+        </nav>
+        <div class="menu-toggle" onclick="toggle()"><i class="fa fa-bars"></i></div>
+    </header>
+
+   <!--contact us form-->
+  <div class="wrapper">
+   <div class="container">
+    <div class="contactus">
+      <h1>We love hearing from you.</h1>
+      <div class="item name_email">
+        <input type="text" placeholder="Your name">
+        <input type="text" placeholder="Email">
+      </div>
+      <div class="item">
+        <input type="text" placeholder="Subject">
+      </div>
+      <div class="item">
+        <textarea placeholder="Message"></textarea>
+      </div>
+      <div class="btn">
+          <a href="#">send</a>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!--footer with social media icons-->
+<footer>
+  <div class="">
+    <p class="sci" align="center">
+      <a href="#" class="icons"><i class="fa fa-google fa-2x"></i></a>&nbsp;
+      <a href="#" class="icons"><i class="fa fa-github fa-2x"></i></a>&nbsp;
+      <a href="#" class="icons"><i class="fa fa-linkedin-square fa-2x"></i></a>&nbsp;
+      <a href="#" class="icons"><i class="fa fa-instagram fa-2x"></i></a>&nbsp;
+      <a href="#" class="icons"><i class="fa fa-facebook-square fa-2x"></i></a>&nbsp;
+    </p>
+    <p class="footer-text" align="center">© 2020 Roque Motors.</p>
+  </div>
+</footer>
+
+<!-- For responsive navbar     -->
+<script>
+            function toggle(){
+                var men=document.getElementsByClassName('menu-toggle')
+                var nav=document.getElementById('nav');
+                nav.classList.toggle('active');
+            }
+</script>
+</body>
+</html>
