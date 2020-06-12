@@ -3,6 +3,7 @@ body
 {
     margin: 0;
     padding: 0;
+    padding-top: 20px;
     font-family:sans-serif ;
     background: url("../Docs/back2.jpeg");
     background-attachment: fixed;
@@ -30,7 +31,7 @@ body
 }
 
 .grid-item {
- 
+
   background-color: rgba(178, 34, 34, 0.664);
   color: #ffffff;
   padding: 10px ;
@@ -67,7 +68,7 @@ hr{
 }
 
 .timeline-img{
-  height: 450px;
+  height: 520px;
   width: 100%;
   background-size: cover;
   background-position: center;
@@ -75,6 +76,22 @@ hr{
 }
 .timeline{
   padding: 50px;
+}
+footer{
+  background-color: firebrick;
+  padding: 10px;
+}
+.icons{
+  color: rgba(255, 217, 0, 0.733);
+  padding: 10px;
+}
+.icons:hover
+{
+  color:grey;
+}
+.footer-text{
+  padding:20px;
+  color: rgba(255, 217, 0, 0.733);
 }
 
 /* For Tablet and mobile*/
