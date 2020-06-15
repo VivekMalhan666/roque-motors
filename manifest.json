@@ -1,0 +1,17 @@
+{
+  "name": "Roque Motors",
+  "short_name": "Roque",
+  "start_url": "/about-us.html",
+  "display": "browser",
+  "background_color": "#fff",
+  "theme_color": "#fff",
+  "orientation": "potrait-primary",
+  "description": "Automobile Company App",
+  "icons": [
+    {
+      "src": "/Docs/icon.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+}
