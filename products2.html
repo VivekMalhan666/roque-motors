@@ -1,14 +1,28 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
   <head>
-    <meta charset="utf-8">
     <title>Products</title>
-
+    <meta charset="utf-8">
      <meta name="viewport" content="width=device-width, initial-scale=1">
+     <meta name="theme-color" content="#fff">
      <link rel="stylesheet" href="stylesheet/products2.css">
      <link rel="stylesheet" href="stylesheet/menus.css">
      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+     <link rel="manifest" href="manifest.json">
+     <style media="screen">
+     html {
+           scroll-behavior: smooth;
+          }
+           #SUV {
+          }
 
+          #SEDAN {
+          }
+
+          #SPORTS {
+
+          }
+     </style>
   </head>
   <body>
 
@@ -38,27 +52,42 @@
     </div>
 
      <!--SUV container-->
+    <div>
      <div class="heading1">
        <h1 id="SUV">SUV</h1>
      </div>
 
      <div class="grid-container">
        <div class="grid-item"><img class="grid-img" src="Docs/Car1.jpg" alt=""></div>
+       <div class="grid-item2"><button class="button">Test Drive</button></div>
        <div class="grid-item"><img class="grid-img" src="Docs/Car1.jpg" alt=""></div>
-       <div class="grid-item"><button class="button">Test Drive</button></div>
-       <div class="grid-item"><button class="button">Test Drive</button></div>
+       <div class="grid-item2"><button class="button">Test Drive</button></div>
+       <div class="grid-item-b"><button class="button">Test Drive</button></div>
+       <div class="grid-item-b"><button class="button">Test Drive</button></div>
     </div>
+    <div class="scroll-wrapper">
+     <a class="scroll"  href="#SEDAN">Scroll to SEDAN.</a>
+    </div>
+</div>
 
     <!--SEDAN container-->
+    <div class="">
     <div class="heading1">
        <h1 id="SEDAN">SEDAN</h1>
     </div>
     <div class="grid-container">
       <div class="grid-item"><img class="grid-img" src="Docs/Car1.jpg" alt=""></div>
+      <div class="grid-item2"><button class="button">Test Drive</button></div>
       <div class="grid-item"><img class="grid-img" src="Docs/Car1.jpg" alt=""></div>
-      <div class="grid-item"><button class="button">Test Drive</button></div>
-      <div class="grid-item"><button class="button">Test Drive</button></div>
+      <div class="grid-item2"><button class="button">Test Drive</button></div>
+      <div class="grid-item-b"><button class="button">Test Drive</button></div>
+      <div class="grid-item-b"><button class="button">Test Drive</button></div>
    </div>
+   <div class="scroll-wrapper">
+     <a class="scroll"  href="#SPORTS">Scroll to SPORTS CARS.</a>
+   </div>
+ </div>
+
 
   <!--  SPORTS CAR container-->
    <div class="heading1">
@@ -66,11 +95,18 @@
    </div>
    <div class="grid-container">
      <div class="grid-item"><img class="grid-img" src="Docs/Car1.jpg" alt=""></div>
+     <div class="grid-item2"><button class="button">Test Drive</button></div>
      <div class="grid-item"><img class="grid-img" src="Docs/Car1.jpg" alt=""></div>
-     <div class="grid-item"><button class="button">Test Drive</button></div>
-     <div class="grid-item"><button class="button">Test Drive</button></div>
+     <div class="grid-item2"><button class="button">Test Drive</button></div>
+     <div class="grid-item-b"><button class="button">Test Drive</button></div>
+     <div class="grid-item-b"><button class="button">Test Drive</button></div>
+  </div>
+  <div class="scroll-wrapper">
+    <a class="scroll" href="#SUV">Back to top.</a>
   </div>
     </section>
+
+
 
     <!--footer-->
     <footer>
@@ -78,6 +114,8 @@
         <p class="footer-text" align="center">© 2020 Roque Motors.</p>
       </div>
     </footer>
+
+    <script src="app.js" charset="utf-8"></script>
 
 <!-- For responsive navbar     -->
 <script>
@@ -87,6 +125,6 @@
                 nav.classList.toggle('active');
             }
 </script>
-
+<noscript>Your browser does not support JavaScript!</noscript>
   </body>
 </html>

@@ -41,7 +41,7 @@
 }
 
 /*grid cell*/
-.grid-item {
+.grid-item .grid-item-b{
   background-color:#000000;
   border: none;
 }
@@ -103,4 +103,49 @@ footer{
 .footer-text{
   padding:20px;
   color: rgba(255, 217, 0, 0.733);
+}
+.grid-item2
+{
+  display: none;
+}
+.scroll
+{
+  text-align: center;
+  color: white;
+}
+
+
+@media (max-width :991px){
+  .grid-container {
+    display: grid;
+    grid-template-columns: auto;
+  }
+  .grid-item-b{
+    display: none;
+  }
+  .grid-item2
+  {
+    display: inline-block;
+    background-color:#000000;
+    border: none;
+  }
+  .button {
+    background-color: firebrick;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+  }
+  .scroll {
+    padding: 30px;
+    text-align: right;
+  }
+  body{
+    height: 100%;
+  }
 }
